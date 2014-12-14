@@ -1,25 +1,30 @@
 .page-footer{
   clear:both;
   background-color: $lightgrey;
-  height: 4em;
+  height: 3em;
   font-family: 'Bree Serif', serif;
+  padding: .5em;
+}
+.page-footer p {
+  text-align:left;
+  font-size:.75em;
 }
 
 .social {
   float:right;
   padding-bottom: 2em;
-
-}
-p {
-  text-align:left;
 }
 
-ul {
-  list-style-type: none;
-}
+  ul {
+    list-style-type: none;
+  }
 
-li {
-  margin-right: 0em;
-  padding: 0 0.5em;
-  display: inline;
-}
+  li {
+    margin-right: 0em;
+    padding: 0 0.5em;
+    display: inline;
+  }
+
+  a {
+    color:$lightblue;
+  }
