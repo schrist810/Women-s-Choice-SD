@@ -1,0 +1,45 @@
+.page-header {
+  background-color: #B6D0E2;
+  height: 3em;
+}
+
+h1{
+  position:absolute;
+  color:$grey;
+  margin: 0;
+  padding-left: .5em;
+  color: #fff;
+}
+
+.main-nav {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  font-size: 0.82em;
+  word-spacing: .2em;
+  text-align:right;
+  padding: .5em;
+  float:right;
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+
+  li {
+    margin-right: .5em;
+    display: inline;
+  }
+
+
+  a{
+    color: #fff;
+    text-decoration: none;
+
+  }
+  a:hover {
+    color:$blue;
+  }
+
+}
