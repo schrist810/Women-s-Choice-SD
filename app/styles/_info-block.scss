@@ -1,0 +1,34 @@
+.info-block{
+clear:both;
+.info {
+  float:left;
+  width:33%;
+
+}
+
+.doctor {
+  float:left;
+  width:33%;
+}
+
+.connect {
+  float:left;
+  width:33%;
+
+}
+
+h3 {
+  color:$blue;
+  font-family: 'Bree Serif', serif;
+  font-size:2em;
+  text-align:center;
+
+}
+
+p {
+  text-align:center;
+  padding-left:.75em;
+  padding-right:.75em;
+}
+
+}

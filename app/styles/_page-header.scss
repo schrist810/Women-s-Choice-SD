@@ -12,13 +12,14 @@ h1{
 }
 
 .main-nav {
-  margin: 0;
+  margin: .5em;
   font-family: 'Bree Serif', serif;
   font-size: 0.82em;
-  word-spacing: .2em;
+  word-spacing: .5em;
+  letter-spacing: .2em;
   text-align:right;
   padding: .5em;
-  float:right;
+  
 
 
   ul {
@@ -28,14 +29,15 @@ h1{
   }
 
   li {
-    margin-right: .5em;
+    margin-right: 0em;
+    padding: 0 0.5em;
     display: inline;
   }
-
 
   a{
     color: #fff;
     text-decoration: none;
+    padding: 0.5em 0;
 
   }
   a:hover {
