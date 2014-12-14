@@ -1,10 +1,12 @@
 .info-block{
 clear:both;
 
+a {
+  text-decoration:none;
+}
 .info {
   float:left;
   width:33%;
-
 }
 
 .doctor {
