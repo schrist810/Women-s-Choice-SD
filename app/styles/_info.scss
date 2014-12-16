@@ -1,0 +1,33 @@
+.facts {
+float:left;
+
+h3 {
+  text-decoration:none;
+  color:$blue;
+  font-family: 'Bree Serif', serif;
+  font-size:2em;
+}
+
+  #col1 {
+    float:left;
+    height:200px;
+    width:200px;
+    clear:none;
+  }
+
+  #col2 {
+    float:left;
+    height:auto;
+    width:262px;
+    clear:none;
+  }
+
+  #col3 {
+    float:left;
+    height:auto;
+    width:262px;
+    clear:none;
+  }
+
+
+}

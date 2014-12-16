@@ -1,0 +1,21 @@
+.about
+h2 {
+    text-decoration:none;
+    color:$blue;
+    font-family: 'Bree Serif', serif;
+    font-size:2em;
+}
+
+p {
+  line-height: 2em;
+}
+
+.about img{
+  float:left;
+  padding-bottom: 2em;
+  padding-right: 4em;
+}
+.us img {
+  float:left;
+  padding-right: 2em;
+}
