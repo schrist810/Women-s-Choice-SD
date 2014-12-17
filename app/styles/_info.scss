@@ -1,5 +1,15 @@
-.facts {
+.main {
+  border-bottom:2px dashed $grey;
+
+img {
+  height:400px;
+  width:100%;
+}
+}
+
+.info-facts {
 float:left;
+width:40%;
 
 h3 {
   text-decoration:none;
@@ -8,26 +18,14 @@ h3 {
   font-size:2em;
 }
 
-  #col1 {
-    float:left;
-    height:200px;
-    width:200px;
-    clear:none;
+.abortion-info {
+  float:right;
+
+}
+.statistics {
+  h3 {
+    font-family: 'Bree Serif', serif;
+    font-size:2em;
   }
-
-  #col2 {
-    float:left;
-    height:auto;
-    width:262px;
-    clear:none;
-  }
-
-  #col3 {
-    float:left;
-    height:auto;
-    width:262px;
-    clear:none;
-  }
-
-
+}
 }
