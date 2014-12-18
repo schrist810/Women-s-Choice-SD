@@ -1,18 +1,22 @@
 .photos img{
-  padding-bottom: 2em;
-  padding-right: 4em;
+  float:left;
+  width:60%;
+  padding: 20px 20px 20px 0;
+
 }
 
 .text {
   float:right;
   width: 40%;
 
-  h2 {
+
+  h3 {
   text-decoration:none;
   color:$blue;
   font-family: 'Bree Serif', serif;
   font-size:2em;
   }
+
   p {
   line-height: 2em;
   }

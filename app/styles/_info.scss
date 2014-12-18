@@ -1,6 +1,7 @@
 .main h2{
   border-bottom:2px dashed $grey;
 
+
 img {
   height:400px;
   width:100%;
@@ -38,29 +39,39 @@ img {
 
 .abortion-info{
   float:left;
-  width:30%;
+  width:33%;
 
 
   p {
     font-family: 'Raleway', sans-serif;
     line-height:1.75em;
-    font-size:1em;
+    font-size:1.05em;
   }
 }
 
 .statistics{
   float:right;
   font-family: 'Raleway', sans-serif;
-  background: $grey;
-  width:25%;
+  background: $lightgrey;
+  width:30%;
+  text-align:center;
+  margin-bottom:20px;
+  padding:0 10px;
 
   h4 {
     font-family: 'Bree Serif', serif;
-    font-size:2em;
+    font-size:1.5em;
+    text-transform:uppercase;
+    color:$blue;
   }
   .numbers {
     font-family: 'Bree Serif', serif;
-    font-size:2em;
-    color:$grey;
+    font-size:3em;
+    color:$blue;
+    text-align:center;
+    padding:0;
+    line-height:0px;
   }
+
+
 }
