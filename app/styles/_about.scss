@@ -1,20 +1,19 @@
-.about
-h2 {
-    text-decoration:none;
-    color:$blue;
-    font-family: 'Bree Serif', serif;
-    font-size:2em;
-}
-
-p {
-  line-height: 2em;
-}
-
-.about img{
+.photos img{
   padding-bottom: 2em;
   padding-right: 4em;
 }
-.us img {
-  float:left;
-  padding-right: 2em;
+
+.text {
+  float:right;
+  width: 40%;
+
+  h2 {
+  text-decoration:none;
+  color:$blue;
+  font-family: 'Bree Serif', serif;
+  font-size:2em;
+  }
+  p {
+  line-height: 2em;
+  }
 }
