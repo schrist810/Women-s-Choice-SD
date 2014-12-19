@@ -1,14 +1,26 @@
-.photos img{
+.main-info {
   float:left;
+  max-width:600px;
+
+}
+
+.more-info {
+  float:left;
+  max-width:600px;
+}
+
+
+
+.about-us img{
   width:60%;
   padding: 20px 20px 20px 0;
 
 }
 
-.text {
-  float:right;
-  width: 40%;
-
+.mission img {
+  width:60%;
+  padding: 20px 20px 20px 0;
+}
 
   h3 {
   text-decoration:none;
@@ -20,4 +32,3 @@
   p {
   line-height: 2em;
   }
-}
